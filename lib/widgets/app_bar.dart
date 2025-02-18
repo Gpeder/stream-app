@@ -7,10 +7,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(
-        'Minha AppBar',
-        style: TextStyle(color: Colors.white),
-      ),
       actions: [
         Padding(
           padding: const EdgeInsets.only(right: 20),

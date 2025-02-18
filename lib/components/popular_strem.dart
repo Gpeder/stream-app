@@ -9,7 +9,7 @@ class PopularStrem extends StatelessWidget {
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width / 2.5;
     return SizedBox(
-      height: 80,
+      height: 70,
       child: ListView.separated(
         physics: const BouncingScrollPhysics(),
         separatorBuilder: (context, index) => const SizedBox(width: 10),

@@ -83,6 +83,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  glassmorphism:
+    dependency: transitive
+    description:
+      name: glassmorphism
+      sha256: c0f65ea2681d4ee6d4125b947946d983335cd44765e835cdc039894b076a6e31
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -200,6 +208,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.3"
+  translucent_navigation_bar:
+    dependency: "direct main"
+    description:
+      name: translucent_navigation_bar
+      sha256: d9251f2d872176b96af9e6e755ac88d506abcac367b2ede6bca446c198777587
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   vector_math:
     dependency: transitive
     description:

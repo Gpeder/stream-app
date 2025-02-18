@@ -12,9 +12,9 @@ class LiveNow extends StatefulWidget {
 class _LiveNowState extends State<LiveNow> {
   @override
   Widget build(BuildContext context) {
-    var width = MediaQuery.of(context).size.width / 2.5;
+    var width = MediaQuery.of(context).size.width / 2.2;
     return SizedBox(
-      height: 180,
+      height: 250,
       child: ListView.separated(
           physics: const BouncingScrollPhysics(),
           separatorBuilder: (context, index) => const SizedBox(width: 10),
@@ -82,7 +82,7 @@ class _LiveNowItem extends StatelessWidget {
                     ),
                     child: Text('1.5k views', style: TextStyle(color: AppColors.black, fontSize: 12),),
                   ),
-                  CustomText(text: 'Titulo', color: AppColors.white, fontSize: 12, letter: null, fontWeight: FontWeight.bold,),
+                  CustomText(text: 'Titulo', color: AppColors.white, fontSize: 12, letter: null, fontWeight: FontWeight.bold),
                   SizedBox(height: 5),
                   CustomText(text: 'nome do game', color: AppColors.white, fontSize: 12, letter: null),
                 ],

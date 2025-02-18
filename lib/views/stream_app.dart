@@ -11,7 +11,7 @@ class StreamApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         drawerTheme: const DrawerThemeData(backgroundColor: AppColors.black),
-        iconButtonTheme: IconButtonThemeData(style: ButtonStyle(iconColor: MaterialStatePropertyAll(AppColors.white))),
+        iconButtonTheme: IconButtonThemeData(style: ButtonStyle(iconColor: WidgetStatePropertyAll(AppColors.white))),
         iconTheme: const IconThemeData(color: AppColors.white),
         scaffoldBackgroundColor: AppColors.black,
         appBarTheme: const AppBarTheme(
